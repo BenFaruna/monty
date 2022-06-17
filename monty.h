@@ -56,6 +56,8 @@ void _mul(stack_t **node, unsigned int line_num);
 void _mod(stack_t **node, unsigned int line_num);
 void pchar(stack_t **node, unsigned int line_num);
 void pstr(stack_t **node, unsigned int line_num);
+void rotl(stack_t **node, unsigned int line_num);
+void rotr(stack_t **node, unsigned int line_num);
 
 void free_stack(stack_t *head);
 void free_all();
