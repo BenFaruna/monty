@@ -12,7 +12,7 @@ void pchar(stack_t **node, unsigned int line_num)
 
 	if (!*node || !node)
 	{
-		dprintf(2, "L%u: can't ppchar, stack empty\n", line_num);
+		dprintf(2, "L%u: can't pchar, stack empty\n", line_num);
 		free_all();
 		exit(EXIT_FAILURE);
 	}

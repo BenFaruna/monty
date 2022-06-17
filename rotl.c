@@ -1,8 +1,8 @@
 #include "monty.h"
 /**
  * rotl - rotates the stack to the top
- * @head: double pointer to the begining of the list
- * @line_count: script line number
+ * @node: double pointer to the begining of the list
+ * @line_num: script line number
  */
 void rotl(stack_t **node, unsigned int line_num)
 {
