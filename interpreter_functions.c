@@ -18,6 +18,12 @@ void interpreter(char *function, stack_t **node, unsigned int line_num)
 		{"swap", swap},
 		{"add", add},
 		{"nop", nop},
+		{"sub", sub},
+		{"div", _div},
+		{"mul", _mul},
+		{"mod", _mod},
+		{"pchar", pchar},
+		{"pstr", pstr},
 		{NULL, NULL}
 	};
 

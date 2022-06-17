@@ -12,7 +12,7 @@ void add(stack_t **node, unsigned int line_num)
 
 	if ((!*node || !node) || !(*node)->next)
 	{
-		dprintf(2, "L%u: can't add, stack too short", line_num);
+		dprintf(2, "L%u: can't add, stack too short\n", line_num);
 		free_all();
 		exit(EXIT_FAILURE);
 	}

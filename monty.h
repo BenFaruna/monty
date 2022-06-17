@@ -50,7 +50,12 @@ void pop(stack_t **node, unsigned int line_num);
 void swap(stack_t **node, unsigned int line_num);
 void add(stack_t **node, unsigned int line_num);
 void nop(stack_t **node, unsigned int line_num);
-
+void sub(stack_t **node, unsigned int line_num);
+void _div(stack_t **node, unsigned int line_num);
+void _mul(stack_t **node, unsigned int line_num);
+void _mod(stack_t **node, unsigned int line_num);
+void pchar(stack_t **node, unsigned int line_num);
+void pstr(stack_t **node, unsigned int line_num);
 
 void free_stack(stack_t *head);
 void free_all();
